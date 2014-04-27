@@ -6,7 +6,9 @@
 #Appropriately labels the data set with descriptive activity names.
 #Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 rm(list=ls())
-setwd("C:\\02_LEARNING\\coursera\\Data Science\\03 - Getting and Cleaning Data\\Assesment Project\\UCI HAR Dataset")
+#setwd("C:\\02_LEARNING\\coursera\\Data Science\\03 - Getting and Cleaning Data\\Assesment Project\\UCI HAR Dataset")
+
+# set working directory so the folder contains the "train" and "test" folder
 
 # combine the feature-X values with the outcome-Y values via cbind()
 #===================================================================
