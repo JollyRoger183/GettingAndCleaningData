@@ -100,5 +100,8 @@ for(i in 1:180){
 write.table(x=avg_subject_activity, file="tidy_data.txt", row.names=FALSE, col.names=TRUE, sep="\t")
 
 # for uploading a smaller tidy_data.txt file to the upload server:
-temp_tidy_data <- avg_subject_activity[1:30, ]
-write.table(x=temp_tidy_data, file="small_tidy_data.txt", row.names=FALSE, col.names=TRUE, sep="\t")
+small_tidy_data <- avg_subject_activity[1:30, ]
+write.table(x=small_tidy_data, file="small_tidy_data.txt", row.names=FALSE, col.names=TRUE, sep="\t")
+
+# output is the uploaded data set
+small_tidy_data
